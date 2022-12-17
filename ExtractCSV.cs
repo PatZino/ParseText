@@ -12,9 +12,9 @@ namespace ParseText
 {
 	public class ExtractCSV
     {
-        public static void ExtractCsvData3()
+        public static void ExtractCsvData()
         {
-            string cs = @"server=serverName;userid=user;password=password;database=lookup";
+            string cs = @"server=serverName;userid=user;password=password;database=dbname";
             MySqlConnection conn = null;
             conn = new MySqlConnection(cs);
             conn.Open();

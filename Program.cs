@@ -20,7 +20,7 @@ namespace ParseText
             // Suspend the screen.  
             System.Console.ReadLine();
 
-            ExtractCSV.ExtractCsvData3();
+            ExtractCSV.ExtractCsvData();
             Console.WriteLine("Hello World!");
 
         }
